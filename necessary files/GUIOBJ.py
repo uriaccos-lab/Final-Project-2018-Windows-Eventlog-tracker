@@ -396,7 +396,7 @@ class gui(Tk):
 
     def sendFile(self):
         self._md5
-        params = {'apikey': 'c1e5a2ec5a91f6270157e43c0f05ba8cf66a99e419d14707d64dd90b628c4af4'}
+        params = {'apikey': ''}
         files = {'file': (self.filename + ".exe", open(self.filename, 'rb'))}
         response = requests.post('https://www.virustotal.com/vtapi/v2/file/scan', files=files, params=params)
         json_response = response.json()
