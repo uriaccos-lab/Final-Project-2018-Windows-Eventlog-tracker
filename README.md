@@ -1,4 +1,11 @@
 # Final-Project-2018-Windows-Eventlog-tracker
+A 2018 project with no Ai been used.
+###Running the program
+you need:\ 
+windows\
+python 2.X\
+installing packages winshell,pywin32,requests,.
+There are some premissions you need to give to run the 
 The main goal of the project is to notify about security problems on windows. Automatic scanning of the Event Log Viewer files of the security domain, filtering it to the relevance ones, and presenting it to the user. In addition the user can scan a file within the program which uses on VirusTotal API
 
 ### The system can detect and notify the user about the following:
