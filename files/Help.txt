@@ -1,0 +1,31 @@
+So what can YOU do with this program?
+	1.Knowing if someone tried to get in your computer
+	2.Auto Scan new installed programs
+	3.Scan process exe
+	4.Knowing if something opened my computer and the mouse and the
+	   keyboard were idle.
+	5.A user account created
+	6.A user account delted
+	7.A user account changed
+	8.A change has been made to Windows Firewall
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d
