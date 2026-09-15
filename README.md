@@ -1,12 +1,26 @@
 # Final-Project-2018-Windows-Eventlog-tracker
-A 2018 project with no Ai been used.
-###Running the program
-you need:\ 
+A 2018 project before Ai era, The main goal of the project is to notify about security problems on windows. Automatic scanning of the Event Log Viewer files of the security domain, filtering it to the relevance ones, and presenting it to the user. In addition the user can scan a file within the program which uses on VirusTotal API
+### Running the program
+you need:\
 windows\
 python 2.X\
-installing packages winshell,pywin32,requests,.
-There are some premissions you need to give to run the 
-The main goal of the project is to notify about security problems on windows. Automatic scanning of the Event Log Viewer files of the security domain, filtering it to the relevance ones, and presenting it to the user. In addition the user can scan a file within the program which uses on VirusTotal API
+installing packages winshell,pywin32,requests\
+An api key of VirusTotal to insert in the GUIOBJ.py code
+
+There are some **premissions** you need to give to run the program adm.py.\
+**Otherwise**, you can run as administrator the code1.py and it should work fine.\
+An example of running it as administraor through the cmd:\
+  •Open CMD as ADMINSTRATOR\
+  •go to the folder location of "code1.py"\
+  •run the command:\
+   C:\PYTHON27\PYTHON.EXE "filelocation"\
+  •for example:\
+   C:\PYTHON27\PYTHON.EXE "C:\USERS\URI\PROJECT\NECESSARYFILES\CODE1.PY"
+
+### Video
+<img width="736" height="544" alt="record_000002-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/942d3e7b-dafd-4ffe-920a-1f48b248f0f8" />
+<img width="736" height="544" alt="record_000002-ezgif com-video-to-gif-converter (1)" src="https://github.com/user-attachments/assets/15109a40-0ffb-4e1b-ac59-67c61f615d65" />
+
 
 ### The system can detect and notify the user about the following:
 •	Viruses in an executable file the user suspected.\
